@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table style="width: 500px">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Galletas</td>
+          <td>Gratis</td>
+        </tr>
+        <tr>
+          <td>Manjar</td>
+          <td>$1.800</td>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>$1.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td></td>
+        <td>Total: $2.800</td>
+      </tfoot>
+    </table>
+
+    <!-- ul es lista no ordenada -->
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+
+    <!-- ol es lista ordenada -->
+
+    <ol>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+
+      <!-- sub elemento -->
+
+      <li>
+        <ol>
+          <li>sub elemento 1</li>
+          <li>sub elemento 2</li>
+          <li>sub elemento 3</li>
+          <li style="list-style-type: lower-alpha">sub elemento 4</li>
+          <!--Ese estilo es para enumerar por como se quiera, por letras, simbolos, etc -->
+          <li style="list-style-type: lower-roman">sub elemento 5</li>
+          <li style="list-style-type: lower-alpha">sub elemento 6</li>
+        </ol>
+      </li>
+    </ol>
+
+    <form action="/formulario" method="POST">
+      <label for="txt1">Nombre:</label>
+      <input type="text" name="nombre" id="txt1" placeholder="Nombre" />
+      <br />
+
+      <label for="txt2">Apellido:</label>
+      <input type="text" name="apellido" id="txt2" placeholder="Apellido" />
+      <br />
+
+      <label for="comentario">Comentario:</label>
+      <br />
+      <textarea
+        cols="30"
+        rows="10"
+        id="comentario"
+        name="comentario"
+        placeholder="Ingrese un comentario"
+      ></textarea>
+      <br />
+
+      <button type="button">Button</button>
+      <br />
+      <button type="reset">Reset</button>
+      <br />
+      <button type="submit">Submit</button>
+      <br />
+    </form>
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz</h6>
+
+    <hr />
+
+    <p>Chanchito feliz esta muy feliz</p>
+    <p>Chanchito triste esta muy triste</p>
+
+    <!--Comentario-->
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores totam
+      quia, necessitatibus blanditiis dicta praesentium?
+      <span style="color: blueviolet">Laboriosam, vel, distinctio,</span>
+      tenetur quis <br />
+      nesciunt facere aut obcaecati id commodi suscipit cum esse similique!
+    </p>
+
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <!--El target sirve para que el link se abra en otra pestaña-->
+    <br />
+
+    <img src="img/hp.jpg" width="400" />
+    <br />
+  </body>
+</html>
